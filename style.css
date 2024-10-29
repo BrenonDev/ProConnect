@@ -35,8 +35,6 @@ body {
   /* background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
-  overflow: hidden;
-
 }
 
 body * {
@@ -49,9 +47,9 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 588px;
-  margin: 56px auto 0px auto;
-  padding: 0px 24px;
+  max-width: 500px;
+  margin: 0px auto 0px auto;
+  padding: 56px 24px;
 }
 
 #profile {
