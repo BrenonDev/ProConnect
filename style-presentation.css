@@ -16,12 +16,12 @@
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --surface-color: rgb(237, 237, 245);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --border-color: rgb(255, 190, 0);
+  --border-color: rgb(70, 0, 255);
 }
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  color:rgb(111, 0, 255);
+  color:rgb(89, 0, 255);
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -64,7 +64,7 @@ body {
 }
 
 #letter {
-  border: 2px solid var(--border-color);
+  border: 3px solid var(--border-color);
   background: var(--surface-color);
   background-size: 300px 300px;
   color: var(--text-color);
