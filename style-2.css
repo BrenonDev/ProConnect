@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg);
+  --surface-color: rgb(39, 40, 34);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --border-color: rgb(0, 206, 209);
+}
+
+.light {
+  --text-color: black;
+  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --surface-color: rgb(237, 237, 245);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --border-color: rgb(255, 190, 0);
+}
+
+body {
+  background: var(--bg-url) no-repeat top center/cover;
+  color:rgb(111, 0, 255);
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#container {
+  align-items: center;
+  padding: 30px;
+  margin: 0 auto 0 auto;
+  max-width: 730px;
+  text-align: justify;
+}
+
+#return {
+  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+
+}
+
+#return a {
+  font-size: 30px;
+  
+  color: var(--text-color);
+  padding: 7px;
+  border-radius: 50%;
+    /* border: 1px solid red; */
+
+}
+
+#return a:hover {
+  background: var(--highlight-color);
+}
+
+#letter {
+  border: 2px solid var(--border-color);
+  background: var(--surface-color);
+  background-size: 300px 300px;
+  color: var(--text-color);
+  padding: 30px;
+}
+
+#letter h1 {
+  text-align: center;
+  margin: 15px 0 20px 0;
+}
+
+#letter p {
+  margin-bottom: 10px;
+  
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
