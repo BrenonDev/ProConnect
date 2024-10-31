@@ -21,7 +21,6 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  color:rgb(89, 0, 255);
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -38,7 +37,6 @@ body {
 }
 
 #return {
-  margin-bottom: 30px;
   width: 70px;
   height: 70px;
   display: flex;
