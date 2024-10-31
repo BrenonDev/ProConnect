@@ -7,8 +7,53 @@ body {
   font-family: "Carlito", sans-serif;
   font-weight: 400;
   font-style: normal;
+  display: grid;
+  place-items: center;
 }
 
 #container {
   border: 1px solid red;
+  padding: 50px;
+}
+
+#curriculum-vitae {
+  border: 1px solid red;
+  width: 800px;
+  height: 1000px;
+  padding: 30px;
+}
+
+#curriculum-vitae h1 {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+#curriculum-vitae h2 {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#curriculum-vitae p {
+  text-align: justify;
+}
+
+#curriculum-vitae p a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+#curriculum-vitae li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+#curriculum-vitae table th {
+  text-align: left;
+  min-width: 150px;
+}
+
+#curriculum-vitae table td {
+  text-align: justify;
+  padding-bottom: 5px;
 }
