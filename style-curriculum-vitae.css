@@ -29,6 +29,8 @@ body {
   /* display: grid; */
   /* place-items: center; */
   display: flex;
+  width: 984px;
+  height: 1284px;
 }
 
 #container {
