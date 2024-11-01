@@ -26,7 +26,6 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  height: 100vh;
 }
 
 #container {
@@ -38,24 +37,19 @@ body {
 }
 
 #return {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-
-
 }
 
 #return a {
   font-size: 30px;
-  
   color: var(--text-color);
   padding: 7px;
   border-radius: 50%;
-    /* border: 1px solid red; */
-
 }
 
 #return a:hover {
@@ -63,7 +57,7 @@ body {
 }
 
 #letter {
-  border: 3px solid var(--border-color);
+  border: 2px solid var(--border-color);
   background: var(--surface-color);
   background-size: 300px 300px;
   color: var(--text-color);
@@ -77,7 +71,6 @@ body {
 
 #letter p {
   margin-bottom: 10px;
-  
 }
 
 @media (min-width: 700px) {
@@ -86,5 +79,11 @@ body {
   }
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body{
+    font-size: 16px;
   }
 }
