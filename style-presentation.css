@@ -87,6 +87,9 @@ body {
     font-size: 16px;
   }
   #letter {
-    padding: 30px 25px 30px 25px;
+    padding: 20px 25px 30px 25px;
+  }
+  #return a {
+  font-size: 25px;
   }
 }

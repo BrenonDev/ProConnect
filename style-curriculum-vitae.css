@@ -28,12 +28,12 @@ body {
   font-style: normal;
   display: flex;
   width: 984px;
+  margin: 0 auto 0 auto;
 }
 
 #container {
   padding: 50px;
-  margin: 0 auto 0 auto;
-  height: max-content;
+  height: 2500px;
 }
 
 #buttons{
@@ -41,8 +41,8 @@ body {
 }
 
 #return {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +51,7 @@ body {
 }
 
 #return a {
-  font-size: 30px;
+  font-size: 35px;
   color: var(--text-color);
   padding: 7px;
   border-radius: 50%;
@@ -62,17 +62,17 @@ body {
 }
 
 #download {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 50px;
+  right: 0;
 }
 
 #download a {
-  font-size: 30px;
+  font-size: 35px;
   color: var(--text-color);
   padding: 7px;
   border-radius: 50%;
