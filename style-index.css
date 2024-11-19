@@ -12,6 +12,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  --bg-signature: rgba(255, 255, 255, 0.17);
 }
 
 .light {
@@ -22,6 +23,7 @@
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  --bg-signature: rgba(0, 0, 0, 0.05);
 }
 
 body {
@@ -167,10 +169,23 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
-footer {
+#signature footer {
   padding: 24px;
   text-align: center;
   font-size: 14px;
+}
+
+#signature p {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  background: var(--bg-signature);
+  padding: 3px 5px 5px 5px;
+  margin: auto;
+  display: inline;
+  border-radius: 5px;
 }
 
 @media (min-width: 700px) {
