@@ -27,14 +27,6 @@
 }
 
 body {
-  /*
-  background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  */
-
-  /* background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
@@ -169,10 +161,9 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
-#signature footer {
+#signature {
   padding: 24px;
   text-align: center;
-  font-size: 14px;
 }
 
 #signature p {
@@ -180,9 +171,10 @@ ul li a:hover {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 14px;
 
   background: var(--bg-signature);
-  padding: 3px 5px 5px 5px;
+  padding: 3px 7px 5px 7px;
   margin: auto;
   display: inline;
   border-radius: 5px;
